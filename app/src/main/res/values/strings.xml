@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The Cats App</string>
+    <string name="search_hint">Buscar</string>
+    <string name="empty_list_message">No se encontraron resultados</string>
+    <string name="progress_dialog_title">Cargando</string>
+    <string name="progress_dialog_message">Espere un momento ...</string>
+</resources>
