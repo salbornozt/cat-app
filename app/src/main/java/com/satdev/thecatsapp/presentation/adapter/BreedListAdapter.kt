@@ -81,7 +81,7 @@ class BreedListAdapter (private val breedFilterListener: BreedFilterListener) : 
             binding.catName.setText(item.name)
             Picasso.get().load("https://cdn2.thecatapi.com/images/${item.referenceImageId}.jpg").into(binding.catImage)
             binding.catCountry.setText(item.origin)
-            binding.catIq.setText(item.adaptability.toString())
+            binding.catIq.setText(item.intelligence.toString())
         }
 
         override fun onClick(p0: View?) {
